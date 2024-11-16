@@ -1,0 +1,33 @@
+.nav {
+    background-color: rgb(14, 14, 41);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .nav__link {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        position: relative;
+        letter-spacing: 5px;
+        font-weight: 700;
+        font-size: 30px;
+        text-decoration: none;
+        padding: 20px;
+        transition: 0.2s;
+
+        &:hover {
+            color: rgb(151, 156, 165);
+        }
+    }
+
+    .nav__link-active::before {
+        content: '';
+        display: inline-block;
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+    }
+}
