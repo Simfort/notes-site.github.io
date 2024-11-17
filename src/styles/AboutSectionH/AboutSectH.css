@@ -1,21 +1,21 @@
 /*
 Error: Invalid CSS after "&.": expected class name, was "--1"
-        on line 71 of ./src/components/AboutSectionH/AboutSectH.scss
+        on line 72 of ./src/components/AboutSectionH/AboutSectH.scss
 
-66:                 padding: 50px;
-67:                 box-shadow: 0 0 10px gray;
-68:                 border-radius: 20px;
-69:                 background-color: white;
-70: 
-71:                 &.--1 {
-72:                     margin-top: 50px;
-73: 
-74:                 }
-75: 
-76:                 &.--3 {
+67:                 padding: 50px;
+68:                 box-shadow: 0 0 10px gray;
+69:                 border-radius: 20px;
+70:                 background-color: white;
+71: 
+72:                 &.--1 {
+73:                     margin-top: 50px;
+74: 
+75:                 }
+76: 
+77:                 &.--3 {
 
 Backtrace:
-./src/components/AboutSectionH/AboutSectH.scss:71
+./src/components/AboutSectionH/AboutSectH.scss:72
 /usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
 /usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
 /usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
@@ -113,4 +113,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"&.\": expected class name, was \"--1\"\A         on line 71 of ./src/components/AboutSectionH/AboutSectH.scss\A \A 66:                 padding: 50px;\A 67:                 box-shadow: 0 0 10px gray;\A 68:                 border-radius: 20px;\A 69:                 background-color: white;\A 70: \A 71:                 &.--1 {\A 72:                     margin-top: 50px;\A 73: \A 74:                 }\A 75: \A 76:                 &.--3 {"; }
+  content: "Error: Invalid CSS after \"&.\": expected class name, was \"--1\"\A         on line 72 of ./src/components/AboutSectionH/AboutSectH.scss\A \A 67:                 padding: 50px;\A 68:                 box-shadow: 0 0 10px gray;\A 69:                 border-radius: 20px;\A 70:                 background-color: white;\A 71: \A 72:                 &.--1 {\A 73:                     margin-top: 50px;\A 74: \A 75:                 }\A 76: \A 77:                 &.--3 {"; }
