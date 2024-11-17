@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap");
+.section-author {
+  height: 600px;
+  background-color: #090713;
+  color: white;
+  width: 100%;
+  font-family: sans-serif;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+  overflow: hidden; }
+  .section-author .light {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    opacity: 0.5;
+    filter: blur(20px);
+    border-radius: 50%; }
+  .section-author .section-author__hiddenText {
+    z-index: 100;
+    font-size: 100px;
+    font-family: "Bigelow Rules", serif;
+    font-weight: 700;
+    transform: rotateZ(10deg);
+    font-style: normal;
+    color: #090713; }
+  .section-author .section-author__h2 {
+    font-size: 30px; }
+  .section-author .section-author__text {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600; }
+    .section-author .section-author__text li {
+      overflow: hidden; }
+
+/*# sourceMappingURL=AuothorSectH.css.map */
