@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
+
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
   background-color: rgb(25, 26, 68);
 }
