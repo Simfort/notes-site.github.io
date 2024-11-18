@@ -6,7 +6,7 @@ export default function AuothorSectH() {
     const section = useRef<any>()
     const mouseMoveHandler = (e: any) => {
         light.current.style.left = `${e.clientX - 50}px`
-        light.current.style.top = `${e.clientY - 500}px`
+        light.current.style.top = `${e.clientY - section.current.clientHeight + section.current.clientHeight / 2}px`
     }
     return <section ref={section} onPointerDown={mouseMoveHandler} onMouseMove={mouseMoveHandler} className='section-author'>
         <div ref={light} className='light'></div>
