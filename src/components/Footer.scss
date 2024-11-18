@@ -1,4 +1,26 @@
 .footer {
-    background-color: black;
-    margin-top: 100%;
+    background-color: rgb(9, 7, 19);
+    border-top: 5px solid white;
+    min-height: 150px;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-text {
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .footer-panel__link {
+        display: flex;
+        flex-direction: column;
+
+        .link-github {
+            img {
+                background-color: white;
+            }
+        }
+    }
 }

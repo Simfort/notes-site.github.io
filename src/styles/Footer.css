@@ -1,5 +1,19 @@
 .footer {
-  background-color: black;
-  margin-top: 100%; }
+  background-color: #090713;
+  border-top: 5px solid white;
+  min-height: 150px;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center; }
+  .footer .footer-text {
+    color: white;
+    font-family: sans-serif; }
+  .footer .footer-panel__link {
+    display: flex;
+    flex-direction: column; }
+    .footer .footer-panel__link .link-github img {
+      background-color: white; }
 
 /*# sourceMappingURL=Footer.css.map */
