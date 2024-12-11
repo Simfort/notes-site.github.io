@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+.notes {
+  min-height: 70vh;
+}
 
 #root {
   display: flex;

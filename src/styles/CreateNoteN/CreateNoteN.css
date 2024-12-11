@@ -1,0 +1,53 @@
+.create-note {
+  display: flex;
+  justify-content: center;
+  min-height: 700px;
+  width: 100%;
+  font-family: sans-serif; }
+  .create-note .note-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    box-shadow: 0 0 10px black;
+    background-color: #252552;
+    color: white;
+    gap: 30px; }
+    .create-note .note-form label {
+      font-weight: 700;
+      font-size: 20px; }
+      .create-note .note-form label input {
+        height: 30px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        font-size: 20px; }
+    .create-note .note-form textarea {
+      width: 100%;
+      height: 100%;
+      resize: none;
+      padding: 10px;
+      border-radius: 20px;
+      outline: none;
+      font-size: 20px;
+      border: none; }
+    .create-note .note-form .note-form__but {
+      font-size: 20px;
+      border: none;
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+      box-shadow: 0 0 7px #1d1c1c;
+      background-color: #2d2d6b; }
+      .create-note .note-form .note-form__but:hover {
+        background-color: #4444a1; }
+      .create-note .note-form .note-form__but:active {
+        box-shadow: inset 0 0 10px black; }
+
+/*# sourceMappingURL=CreateNoteN.css.map */
